@@ -10,7 +10,6 @@ import Typed from 'typed.js'
 import Home from './Home'
 
 function App() {
-  
 	// Create reference to store the DOM element containing the animation
 	const el = React.useRef(null);
   // Create reference to store the Typed instance itself
@@ -77,9 +76,9 @@ function App() {
     }
   }, [])
 
+
   return (
     <Router>
-      {/* dark navbar */}
       <Navbar expand='lg' className='navbar navbar-dark bg-dark py-2 m-0' sticky='top'>
         <Container>
           <Navbar.Brand className='devtyped neon-color position-absolute top-0 mt-2' ref={el}></Navbar.Brand>
@@ -93,6 +92,7 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
       <Routes>
         <Route exact path='/' element={<Home/>}/>
       </Routes>

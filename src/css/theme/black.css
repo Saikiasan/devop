@@ -1,0 +1,14 @@
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+body {
+  background: #000 !important;
+  color: #fff ;
+
+  --webkit-user-select: none !important;
+  --moz-user-select: none !important;
+  --ms-user-select: none !important;
+  --khtml-user-select: none !important;
+  user-select: none !important;
+}
