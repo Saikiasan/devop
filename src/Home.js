@@ -1,7 +1,6 @@
 import React from 'react'
 import Navigator from './comp/Navbar'
 import Footer from './comp/Footer'
-import Typed from 'typed.js'
 
 const Home = () => {
   // hiding the icons number
