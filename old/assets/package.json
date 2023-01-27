@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "animejs": "^3.2.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "lazyload": "^2.0.0-rc.2",
+    "typed.js": "^2.0.12",
+    "vivus": "^0.4.6"
+  }
+}
