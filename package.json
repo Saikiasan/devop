@@ -1,7 +1,7 @@
 {
   "name": "devop",
   "version": "0.1.0",
-  "homepage": "https://saikiasan.github.io/",
+  "homepage": "https://saikiasan.github.io/devop",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
