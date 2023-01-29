@@ -93,7 +93,7 @@ function App() {
     <BuyCoffee/>
 
       <Routes>
-        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/devop' element={<Home/>}/>
         <Route exact path='/hirethedevloper' element={<HireMe/>}/>
       </Routes>
     </Router>
