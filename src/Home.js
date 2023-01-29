@@ -1,18 +1,15 @@
 import React from 'react'
-import Navigator from './comp/Navbar'
 import Footer from './comp/Footer'
 
 const Home = () => {
   // hiding the icons number
-  const icons_d = document.querySelectorAll('.ico_num')
-  // for each icon
-  icons_d.forEach((icon) => {
+  document.querySelectorAll('.ico_num')
+  .forEach((icon) => {
     icon.classList.add('visually-hidden')
   })
 
   return (
-    <div  className='main'>
-      <Navigator/>
+    <div  className='main mt-5'>
       <div className='container-fluid'>
         <div className='row gy-4 row-cols-2 row-cols-md-4 text-light showcase-1'>
 
@@ -111,6 +108,7 @@ const Home = () => {
 
       {/* Footer */}
       <Footer/>
+
     </div>
   )
 }
