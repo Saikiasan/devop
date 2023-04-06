@@ -1,8 +1,14 @@
+:root {
+  --black: #000;
+}
+
 ::-webkit-scrollbar {
   display: none !important;
 }
 
 body {
+  margin: 0%;
+  padding: 0;
   background: #000 !important;
   color: #fff ;
 

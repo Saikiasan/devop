@@ -2,12 +2,6 @@ import React from 'react'
 import Footer from './comp/Footer'
 
 const Home = () => {
-  // hiding the icons number
-  document.querySelectorAll('.ico_num')
-  .forEach((icon) => {
-    icon.classList.add('visually-hidden')
-  })
-
   return (
     <div  className='main mt-5'>
       <div className='container-fluid'>
@@ -22,7 +16,7 @@ const Home = () => {
               </svg>
             </div>
             <div className='px-3'>
-              <h2 className='fw-bold mb-0 ico_num'>4</h2>
+              {/* <h2 className='fw-bold mb-0 ico_num'>4</h2> */}
               <p className='mb-0'>Android Apps</p>
             </div>
             </div>
@@ -37,7 +31,7 @@ const Home = () => {
               </svg>
             </div>
             <div className='px-3'>
-              <h2 className='fw-bold mb-0 ico_num'>1</h2>
+              {/* <h2 className='fw-bold mb-0 ico_num'>1</h2> */}
               <p className='mb-0'>Server-Side projects</p>
             </div>
             </div>
@@ -52,7 +46,7 @@ const Home = () => {
               </svg>
             </div>
             <div className='px-3'>
-              <h2 className='fw-bold mb-0 ico_num'>20+</h2>
+              {/* <h2 className='fw-bold mb-0 ico_num'>20+</h2> */}
               <p className='mb-0'>Websites</p>
             </div>
             </div>
@@ -67,7 +61,7 @@ const Home = () => {
               </svg>
             </div>
             <div className='px-3'>
-              <h2 className='fw-bold mb-0 ico_num'>10+</h2>
+              {/* <h2 className='fw-bold mb-0 ico_num'>10+</h2> */}
               <p className='mb-0'>Github Projects</p>
             </div>
             </div>
@@ -82,7 +76,7 @@ const Home = () => {
               </svg>
             </div>
             <div className='px-3'>
-              <h2 className='fw-bold mb-0 ico_num'>10+</h2>
+              {/* <h2 className='fw-bold mb-0 ico_num'>10+</h2> */}
               <p className='mb-0'>Front End</p>
             </div>
             </div>
@@ -97,12 +91,33 @@ const Home = () => {
                 </svg>
               </div>
               <div className='px-3'>
-                <h2 className='fw-bold mb-0 ico_num'>10+</h2>
+                {/* <h2 className='fw-bold mb-0 ico_num'>10+</h2> */}
                 <p className='mb-0'>Code</p>
               </div>
             </div>
           </div>
 
+        </div>
+
+        <div className='row my-5 mx-2'>
+          <div className='col text-light'>
+            <h2 className='text-center pb-4 text-decoration-underline'>Intoduction</h2>
+            <p>
+              I am Ankit Saikia, an aspiring future developer and I create sites and pages like this with the help of several technologies available at the current trends.
+              Till date, I have tried out things like React, with which I created this amazing portfolio for myself and several other programming languages like HTML, CSS, PHP, JS, Java, Kotlin, C, C++, C#, and more ...
+            </p>
+            <p>
+              There has been a significant increase in the field of Information Technology since the pandemic, and still people who are aware of this great oppurtunity are pursuing the line of IT.
+            </p>
+            <p>
+              While it seems too good and easy to be a developer, it is no joke I will tell you that. The journey to becoming a fully-fledged developer is harsh and tiring.
+              You have to learn not just one or two stuffs but you are required to have knowledge from all kinds of things. From software development to basic math. But here's the thing.
+            </p>
+            <p>
+              We follow an outdated system of education in India, which is not favourable at all for the field of computer science. There has to be made changes, and I am certain that will be happening in the coming years.<br/>
+              However, that's not what I do. So we better leave that to the higher up. What should you focus more as a developer is the passion for creating amazing and fun contents for the masses to use. Because at last you do need to earn a fortune and to have that much fotune, you need to be enough capable to launch your own imagination onto the internet.
+            </p>
+          </div>
         </div>
       </div>
 
